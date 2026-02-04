@@ -1,0 +1,7 @@
+ORG 0000H
+MOV 30H, #41H    
+MOV A, 30H      
+MOV R7, A        
+
+HERE: SJMP HERE
+END
